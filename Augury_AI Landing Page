@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Augury AI - Predictive Maintenance Intelligence</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+        .cta-button {
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 7px 14px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-slate-800">Augury AI</h1>
+            <a href="mailto:shyq8524@gmail.com" class="bg-blue-600 text-white font-semibold px-4 py-2 rounded-lg cta-button">Request a Demo</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="container mx-auto px-6 py-16 md:py-24 text-center">
+        <h1 class="text-4xl md:text-6xl font-bold tracking-tight text-slate-900 leading-tight">
+            Prevent Costly Downtime.
+        </h1>
+        <h2 class="text-4xl md:text-6xl font-bold tracking-tight text-blue-600 leading-tight mt-2">
+            We Use AI to Predict Machine Failure.
+        </h2>
+        <p class="mt-6 max-w-2xl mx-auto text-lg text-slate-600">
+            Stop reacting to breakdowns and start preventing them. Our AI engine analyzes your equipment data to identify failures before they happen, saving you millions in lost revenue and repair costs.
+        </p>
+        <div class="mt-10">
+            <a href="mailto:your.email@gmail.com?subject=Requesting a Demo for Augury AI" id="cta" class="bg-blue-600 text-white font-bold text-lg px-8 py-4 rounded-lg cta-button inline-block">
+                Request a Free 15-Minute Demo
+            </a>
+            <p class="mt-3 text-sm text-slate-500">See how it works, no obligation.</p>
+        </div>
+    </main>
+
+    <!-- The Offer Section -->
+    <section class="bg-white py-20 md:py-28">
+        <div class="container mx-auto px-6 text-center">
+            <h3 class="text-sm font-semibold uppercase text-blue-600">Our Initial Offer</h3>
+            <h2 class="text-3xl md:text-4xl font-bold mt-2 text-slate-900">The AI Predictive Maintenance Audit</h2>
+            <div class="max-w-3xl mx-auto mt-6 bg-slate-100 p-8 rounded-2xl border border-slate-200">
+                <p class="text-lg text-slate-700">
+                    For a flat fee of **$1,500 USD**, we will run a custom analysis of your historical maintenance and equipment data. Our AI will identify hidden failure patterns and deliver a comprehensive report detailing when your machines might have failed, showcasing the potential savings.
+                </p>
+                <ul class="text-left mt-6 space-y-3 text-slate-600">
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-500 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <span>**Prove the Value:** See the power of predictive AI on your own data.</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-500 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <span>**No Integration Needed:** A simple, one-time analysis of your existing CSV or Excel data.</span>
+                    </li>
+                     <li class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-500 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <span>**Actionable Insights:** Get a clear report you can use to justify further investment in predictive maintenance.</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Proof / How it Works Section -->
+    <section class="py-20 md:py-28">
+        <div class="container mx-auto px-6">
+            <div class="text-center">
+                <h3 class="text-sm font-semibold uppercase text-blue-600">Proof, Not Promises</h3>
+                <h2 class="text-3xl md:text-4xl font-bold mt-2 text-slate-900">Validated Performance</h2>
+                <p class="mt-4 max-w-2xl mx-auto text-lg text-slate-600">
+                    Our model was trained on a benchmark industry dataset, achieving over 98% accuracy in identifying imminent equipment failures.
+                </p>
+            </div>
+            <div class="mt-12 bg-white p-8 rounded-2xl shadow-lg border border-slate-200 max-w-4xl mx-auto">
+                <h4 class="text-lg font-semibold text-slate-800">Sample AI-Generated Alert:</h4>
+                <div class="mt-4 bg-slate-900 text-white p-6 rounded-lg font-mono text-sm overflow-x-auto">
+                    <code>
+                        <span class="text-slate-400">--- PREDICTIVE ANALYSIS: AUGURY AI ---</span><br>
+                        <span class="text-slate-400">ANALYSIS FOR:</span> Machine Component # XYZ<br>
+                        <span class="text-slate-400">========================================</span><br>
+                        <span class="text-slate-400">CURRENT SENSOR READINGS:</span><br>
+                        Air temperature [K]      302.3<br>
+                        Process temperature [K]    310.8<br>
+                        Rotational speed [rpm]   1377.0<br>
+                        Torque [Nm]               47.3<br>
+                        Tool wear [min]           22.0<br>
+                        <br>
+                        <span class="text-slate-400">AI PREDICTION:</span><br>
+                        <span class="text-red-400 font-bold">**CRITICAL ALERT** - 59% PROBABILITY OF IMMINENT FAILURE.</span><br>
+                        <br>
+                        <span class="text-slate-400">RECOMMENDATION:</span><br>
+                        <span class="text-yellow-300">Immediately halt operations and schedule emergency maintenance.</span><br>
+                        <span class="text-slate-400">--- END REPORT ---</span>
+                    </code>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="gradient-bg py-20 md:py-28">
+        <div class="container mx-auto px-6 text-center">
+             <h2 class="text-3xl md:text-4xl font-bold text-slate-900">Ready to See Your Data in Action?</h2>
+             <p class="mt-4 max-w-2xl mx-auto text-lg text-slate-700">
+                Let's schedule a brief, no-pressure call. We'll show you a live demo of the AI engine and discuss how an AI Predictive Maintenance Audit could benefit your specific operations.
+            </p>
+            <div class="mt-10">
+                <a href="mailto:shyq8524@gmail.com?subject=Requesting a Demo for Augury AI" class="bg-white text-blue-600 font-bold text-lg px-8 py-4 rounded-lg cta-button inline-block shadow-2xl">
+                    Request Your Free Demo Call
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white">
+        <div class="container mx-auto px-6 py-8 text-center text-slate-500">
+            <p>&copy; 2025 Augury AI. All Rights Reserved.</p>
+            <p class="text-sm mt-2">
+                <a href="#" class="hover:text-blue-600">Terms of Service</a> | <a href="#" class="hover:text-blue-600">Privacy Policy</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
+
+
